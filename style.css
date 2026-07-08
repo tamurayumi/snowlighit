@@ -1,0 +1,142 @@
+#container{
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+img{
+    max-width: 100%;
+}
+
+body{
+    color: white;
+    background-color: black;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+li{
+    list-style: none;
+}
+
+section{
+    margin-bottom: 90px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-right: 88px;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.fc{
+    font-size: 15px;
+}
+
+header{
+
+    margin-bottom: 70px;
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main img{
+    width: 100%;
+    height: 600px;
+   object-fit: cover;
+   object-position: top;
+}
+
+.account{
+    display: flex;
+    margin-left: auto;
+    gap: 30px;
+
+}
+
+.member{
+    width: 320px;
+    height: 450px;
+    object-fit: cover;
+}
+
+#members{
+    display: flex;
+}
+
+#members li{
+    margin-right: 30px;
+}
+
+.news img{
+    width: 250px;
+}
+
+.news li{
+    display: flex;
+    margin-bottom: 60px;
+    gap:30px;
+}
+
+.news-text{
+        line-height: 1.6
+}
+
+h1{
+    line-height: 1;
+}
+
+h3{
+    font-size: 30px;
+    line-height: 1;
+}
+
+footer{
+    padding: 30px 0;
+    margin-top: 80px;
+    border-top: solid 0.5px #fff;
+}
+
+footer p{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sinki{
+    border: solid 2px #fff;
+    background-color: #fff;
+    padding: 10px 3px;
+    color: black;
+
+}
+
+.po{
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.poo{
+    margin-bottom: 0;
+}
+
+.viw{
+    margin-top: 30px;
+}
